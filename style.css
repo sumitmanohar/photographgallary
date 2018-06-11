@@ -1,0 +1,101 @@
+:root{
+	font-size: 10px;
+}
+body{
+	background-color: #ecf0f1;
+	font-family: 'Acme', sans-serif;
+}
+nav{
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.container > a{
+font-size: 1.9rem;
+font-weight: bold;
+margin-top: 20px;
+}
+.navbar-nav >a{
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-top: 20px;
+}
+#pic1 > a img{
+	width: 100%;
+}
+
+#pic2 >a img{
+	width: 100%;
+}
+#images .container .row{
+	margin-top:50px;
+}
+
+.navbar .container .collapse .navbar-nav a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ff4757;
+    transition: width .3s;
+    
+}
+.navbar .container .collapse .navbar-nav a:hover::after{
+	width: 100%;
+}
+.navbar .container .collapse .navbar-nav a:hover{
+	color:#ff4757;
+}
+.navbar .container > a:hover{
+	color:#95a5a6;
+	transform: rotate(4deg);
+
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.effect:hover .middle {
+  opacity: 1;
+}
+.middle1 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.effect1:hover .middle1 {
+  opacity:1;
+}
+#pic1 >a img:hover{
+	opacity: 0.5;
+	transform: rotate(4deg);
+}
+#pic2 >a img:hover{
+	opacity: 0.5;
+	transform: rotate(356deg);
+}
+@media screen and (max-width: 767px){
+	#pic2 > a img{
+	padding: 30px 0 30px 0;
+}
+}
+
+

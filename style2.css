@@ -1,0 +1,62 @@
+:root{
+	font-size: 10px;
+}
+body{
+	font-family: 'Acme', sans-serif;
+}
+.navbar{
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.container > a{
+font-size: 1.9rem;
+font-weight: bold;
+margin-top: 20px;
+}
+.navbar-nav >a{
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.navbar .container .collapse .navbar-nav a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ff4757;
+    transition: width .3s;
+    
+}
+.navbar .container .collapse .navbar-nav a:hover::after{
+	width: 100%;
+}
+.navbar .container .collapse .navbar-nav a:hover{
+	color:#ff4757;
+}
+.navbar .container > a:hover{
+	color:#95a5a6;
+	transform: rotate(4deg);
+
+}
+#intro{
+	margin-top: 50px;
+}
+#intro .container .row .col-12 > span{
+	font-size: 2rem;
+	font-weight: bold;
+	margin-top: 50px;
+	display: inline-block;
+}
+#intro .container .row .col-12 > small{
+	font-size: 1.2rem;
+}
+#intro .container .row .col-12 > p{
+	font-size: 1.5rem;
+	line-height: 25px;
+}
+#photo .container .row .col-12> img {
+	margin-top: 50px;
+}

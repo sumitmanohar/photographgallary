@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+
+    <title>Hello, world!</title>
+    <style type="text/css">
+      :root{
+  font-size: 10px;
+}
+body{
+  background-color: #ecf0f1;
+  font-family: 'Acme', sans-serif;
+}
+.navbar{
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+.container > a{
+font-size: 1.9rem;
+font-weight: bold;
+margin-top: 20px;
+}
+.navbar-nav >a{
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.navbar .container .collapse .navbar-nav a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ff4757;
+    transition: width .3s;
+    
+}
+.navbar .container .collapse .navbar-nav a:hover::after{
+  width: 100%;
+}
+.navbar .container .collapse .navbar-nav a:hover{
+  color:#ff4757;
+}
+.navbar .container > a:hover{
+  color:#95a5a6;
+  transform: rotate(4deg);
+
+}
+#news{
+  background-color: black;
+  color: white;
+  margin-top: 100px;
+}
+#news .container-fluid .row .col-12> span{
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 30px;
+}
+#news .container-fluid .row .col-12>p{
+  font-size: 1.5rem;
+  padding: 20px 0 10px 0;
+  line-height: 30px;
+}
+#bio .container-fluid .row .col-12>span{
+   font-size: 2rem;
+  font-weight: bold;
+  line-height: 30px;
+  }
+  #bio .container-fluid .row .col-12>p{
+   font-size: 1.5rem;
+   padding: 20px 0 10px 0;
+   line-height: 30px;
+
+}
+#bio .container-fluid .row .col-12 >p a span{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+#exhibition .container-fluid .row .col-12>span{
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 30px
+}
+#exhibition .container-fluid .row .col-12>p small{
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 30px
+}
+#exhibition .container-fluid .row .col-12>p{
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+#interview .container-fluid .row .col-12>span{
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 30px
+}
+#interview .container-fluid .row .col-12>p small{
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 30px
+}
+#interview .container-fluid .row .col-12>p{
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+#award .container-fluid .row .col-12>span{
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 30px
+}
+#award .container-fluid .row .col-12>p small{
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 30px
+}
+#award .container-fluid .row .col-12>p{
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+#press .container-fluid .row .col-12>span{
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 30px
+}
+#press .container-fluid .row .col-12>p small{
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 30px
+}
+#press .container-fluid .row .col-12>p{
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+#education .container-fluid .row .col-12>span{
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 30px
+}
+#education .container-fluid .row .col-12>p small{
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 30px
+}
+#education .container-fluid .row .col-12>p{
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+    </style>
+  </head>
+  <body>
+     <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#ecf0f1;">
+      <div class="container">
+  <a class="navbar-brand" href="index.html">Guillaume Tomasi</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="About.html">About</a>
+      <a class="nav-item nav-link active" href="#">Instagram</a>
+      <a class="nav-item nav-link active" href="Tumblr.html">Tumblr</a>
+    </div>
+  </div>
+</div>
+</nav>
+<div id="news">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <span style="margin-top: 15px;display:inline-block;">Latest news</span>
+        <p>06.2018<br>An excerpt of my work will be<br> exhibited for the <br><small style="font-weight: bold;font-size: 1.5rem;">One Year Revolv show</small><br>
+More infos in the Facebook event<br><br>
+I will exhibit some pictures from <br>"Postcards from nowhere" at<br> ANALOG/Mtl vol III
+<br>More info in the Facebook event<br></p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+  <div id="bio">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <span style="margin-top: 80px;display: inline-block;margin-bottom: 20px;">Biography</span>
+          <p>Guillaume Tomasi (b.1984) is an emerging photographer who was born in France and currently lives in Montreal. His work was featured in various publications (both printed and online) and collectives expositions in Montreal, London and Bienne (Switzerland). He is currently completing his BFA in Photography at Concordia University and he created in 2016 the collaborative project Fiiiirst which features anonymous image based discussions between authors photographers. His photographic practice is mainly based on exploration, wandering and luck. Recently, his work moved into an obsessed research about our world perception based on personal events.<br>
+            <br>
+          You can reach me at<br><a href="mailto:smanohar515@gmail.com" style="text-decoration: none;"><span>smanohar515@gmail.com</span></a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <div id="exhibition">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+        <span style="margin-top: 80px;display: inline-block;margin-bottom: 20px;" >Group Exhibitions</span><br>
+        <p><small>2018.</small> One Year Revolv, Safehouse 1, London (UK)<br>
+<small>2018.</small> ANALOG/Mtl 3rd Edition, Factry, Montreal (QC)<br>
+<small>2017.</small> FOUR ELEMENTS, Float Photo Magazine, online exhibit (UK)<br>
+<small>2016.</small> Life Framer, Menier Gallery, London (UK)<br>
+<small>2015.</small> Juraplatz Public Art Space, Biel (CH)<br>
+<small>2015.</small> Plateaugraphie 2, Gallery 2456, Montreal (QC)<br>
+<small>2014.</small> Espace Massive Art, Montreal (QC)<br>
+<small>2014.</small> Plateaugraphie, La Galerie du Plateau, Montreal (QC)</p><br>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="interview">
+ <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+           <span style="margin-top: 80px;display: inline-block;margin-bottom: 20px;">Interviews & Features (selection)</span><br>
+<p><small>2018.</small> The Pupile Sphere<br>
+<small>2018.</small> Camera Infinita<br>
+<small>2017.</small> of the land & us<br>
+<small>2017.</small> Aint-Bad Magazine<br>
+<small>2017.</small> Phroom Magazine<br>
+<small>2017.</small> Velvet Eyes<br>
+<small>2017.</small> MonoVisions<br>
+<small>2017.</small> C-41 Magazine<br>
+<small>2017.</small> Aye Mag<br>
+<small>2017.</small> Another Place Magazine<br>
+<small>2016.</small> DigiFoto Pro<br>
+<small>2016.</small> Fubiz<br>
+<small>2016.</small> Tongue Magazine<br>
+<small>2016.</small> Phosmag<br>
+<small>2016.</small> Phosmag<br>
+<small>2015.</small> The Red List<br>
+<small>2015.</small> D.Repubblica<br>
+<small>2015.</small> Fubiz<br>
+<small>2015.</small> Aye Mag<br>
+<small>2014.</small> AA13</p><br>
+      </div>
+    </div>
+  </div> 
+</div>
+
+
+<div id="award">
+  <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <span style="margin-top: 80px;display: inline-block;margin-bottom: 20px;">Awards</span><br>
+<p>
+<small>2016.</small> Life Framer Edition III, "Street Life", Shortlisted</p><br>
+      </div>
+    </div>
+  </div>  
+</div>
+
+
+<div id="press">
+   <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+        <span style="margin-top: 80px;display: inline-block;margin-bottom: 20px;">  Press / Publications</span><br>
+<p>
+<small>2018.</small> Stolen Ground, Zine #5: Heavy<br>
+<small>2017.</small> Stop.Magazine, Issue 2<br>
+<small>2016.</small> Life Framer, Edition II Annual<br>
+<small>2015.</small> Ideat China, December Issue</p><br>
+      </div>
+    </div>
+  </div> 
+</div>
+
+
+<div id="education">
+   <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <span style="margin-top: 80px;display: inline-block;margin-bottom: 20px;">Education</span><br>
+<p><small>(2016 - Ongoing).</small> BFA in Photography, Concordia University, Montreal, QC<br>
+<small>2005.</small> Bachelor In Communication Activities and Technics, University of Savoy, France</p><br>
+      </div>
+    </div>
+  </div> 
+  </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  </body>
+</html>
